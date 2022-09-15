@@ -36,12 +36,22 @@ p{
 }
 
 #verbimagem{
-    position: absolute;
-    top: 250px;
+    float: left;
+    top: 10px;
+    left: 300px;
     z-index: 2;
+    padding: 2px;
 
 }
 
+#quemsou{
+    position: absolute;
+    top: 520px;
+}
+
+.img ul{
+    display: ;
+}
 </style>
 
 <body>
@@ -51,36 +61,40 @@ p{
     <form class="p-2 mb-2 bg-dark border-bottom border-dark">
       <input type="search" class="form-control form-control-dark" autocomplete="false" placeholder="Type to filter...">
     </form>
+    <nav>
     <ul class="list-unstyled mb-0">
       <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
         <span class="d-inline-block bg-success rounded-circle p-1"></span>
-        Action
+        Quem sou
       </a></li>
+      Me chamo Verbeson, verb ou verbinho para quem acha dificil falar meu nome.<br> 
+      Me interesso em computadores desde os 7 ou 8 anos de idade, com 12 anos comecei a ajudar<br>
+      meu pai em uma empresa de internet que ele criou com ajuda de alguns amigos.
+      <ul class="img"><a href="#"><img src="Perfil Verbeson.jpeg"  alt="Verbeson Foto LinkedIn" width="200px" id="verbimagem"></a></ul>
       <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
         <span class="d-inline-block bg-primary rounded-circle p-1"></span>
-        Another action
+        Habilidades
       </a></li>
       <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
         <span class="d-inline-block bg-danger rounded-circle p-1"></span>
-        Something else here
+        Empresas
       </a></li>
       <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
         <span class="d-inline-block bg-info rounded-circle p-1"></span>
-        Separated link
+        LinkedIn
       </a></li>
     </ul>
+</nav>
   </div>
 </div>
 </div>
 
-<img src="Perfil Verbeson.jpeg"  alt="Verbeson Foto LinkedIn" width="200px" id="verbimagem">
+
 <h2>Verbeson dos Santos Carneiro</h2>
 <h3>Quem sou?</h3>
-<p>
-    Me chamo Verbeson, verb ou verbinho para quem acha dificil falar meu nome.<br> 
-Mexo em computadores desde os 7 ou 8 anos de idade, com 12 anos comecei a ajudar<br>
-meu pai em uma empresa de internet que ele criou com ajuda de alguns amigos.
-</p>
+<ul class="quemsou">
+    
+</ul>
  
 
 </body>
