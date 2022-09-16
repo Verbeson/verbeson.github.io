@@ -1,103 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width", initial-scale="1.0">
 <title>Perfil Verbeson</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<link href="../perfil/Style_Perfil.css" rel="stylesheet">
 
 </head>
 
-<style>
-
-h2 {
-    font-size: 20px;
-}
-
-body {
-    background-color: aliceblue;
-    
-}
-
-h3{
-    position: absolute;
-    top: 590px;
-}
-
-p{
-    position: absolute;
-    top: 520px;
-}
-
-#alll{
-    width: 800px;
-    position: absolute;
-    z-index: 1;
-    border:solid green;
-    
-}
-
-#verbimagem{
-    float: left;
-    top: 10px;
-    left: 300px;
-    z-index: 2;
-    padding: 2px;
-    border: solid aliceblue;
-
-}
-
-#quemsou{
-    position: absolute;
-    top: 520px;
-}
-
-.img ul{
-    display: ;
-}
-
-
-.typefilter{
-    border: salmon;
-}
-
-
-.dp-menu ul ul {
-    display: none;
-    left: 0;
-    float: left;
-
-}
-
-.dp-menu ul li:hover ul {
-    display: block;
-}
-/*Tamanho do sub-menu dentro de produtos*/
-.dp-menu ul ul {
-    width: 800px
-}
-
-.dp-menu ul ul li a {
-    display: block;
-}
-
-/* 
-Id linkedin criado para redirecionar para a pagina do usuario do linkedin.
-color:inherit remove o azul do texto e o text-decoration: none remove o sublinhado do texto. */
-#linkedin{
-    text-decoration: none;
-    color: inherit;
-}
-
-#certificados{
-    text-decoration: none;
-    color: inherit;
-}
-</style>
-
 <body>
-    
 
     <!-- Primeira div e relacionada ao corpo do menu-->
 <div id="alll" class="dropdown-menu dropdown-menu-dark d-block position-static border-0 pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px">
@@ -107,9 +21,10 @@ color:inherit remove o azul do texto e o text-decoration: none remove o sublinha
       <input type="search" class="form-control form-control-dark" autocomplete="false" placeholder="Type to filter...">
     </form>
 </div>
+
+
     <nav class="dp-menu">
-
-
+        
     <ul class="list-unstyled mb-0">
 
     <!--MENU QUEM SOU-->
@@ -168,7 +83,7 @@ color:inherit remove o azul do texto e o text-decoration: none remove o sublinha
       <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
         <span class="d-inline-block bg-primary rounded-circle p-1"></span>
         Certificados
-        
+
         <!--SUB-MENU CERTIFICADOS-->
         <ul>
             <li><a href="Certificados/Certificado_Monitoramento_zabbix_avancado.jpg">Zabbix Monitoramento Avancado</a></li>
@@ -179,6 +94,8 @@ color:inherit remove o azul do texto e o text-decoration: none remove o sublinha
 
     </li>
     <!--MENU CERTIFICADOS-->
+
+    <!--LINKEDIN LINK-->
         <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="https://br.linkedin.com/in/verbeson-carneiro-a886aabb" target="_blank" id="linkedin" > <ion-icon name="book-outline"></ion-icon>LinkedIn</a>
         </a>
       </li>

@@ -1,22 +1,92 @@
-
 h2 {
-  color:green;
-  font-size: 2em;
-}
-body {
-  background-color:aliceblue;
   font-size: 20px;
 }
 
-.list-style {
+body {
   background-color: aliceblue;
-  font-weight: bold;
-  font-style: italic;
-  line-height: 20px;
-  text-align: left;
+  
+}
+
+h3{
+  position: absolute;
+  top: 590px;
+}
+
+p{
+  position: absolute;
+  top: 520px;
+}
+
+#alll{
+  width: 800px;
+  position: absolute;
+  z-index: 1;
+  border:solid green;
+  
+}
+
+#verbimagem{
+  float: left;
+  top: 10px;
+  left: 300px;
+  z-index: 2;
+  padding: 2px;
+  border: solid aliceblue;
 
 }
 
-p   {
-font-family: monospace;
+#quemsou{
+  position: absolute;
+  top: 520px;
+}
+
+.img ul{
+  display: ;
+}
+
+
+.typefilter{
+  border: salmon;
+}
+
+
+.dp-menu ul ul {
+  display: none;
+  left: 0;
+  float: left;
+
+}
+
+.dp-menu ul li:hover ul {
+  display: block;
+}
+/*Tamanho do sub-menu dentro de produtos*/
+.dp-menu ul ul {
+  width: 800px
+}
+
+.dp-menu ul ul li a {
+  display: block;
+}
+/* REMOVE O SUBLINHADO DAS TAGs 'a' E MUDA AS CORES DOS TEXTOS PARA BRANCO*/
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* 
+Id linkedin criado para redirecionar para a pagina do usuario do linkedin.
+color:inherit remove o azul do texto e o text-decoration: none remove o sublinhado do texto. */
+#linkedin{
+  text-decoration: none;
+  color: inherit;
+}
+
+#certificados{
+  text-decoration: none;
+  color: inherit;
+}
+
+li{
+  list-style-type: none;
 }
