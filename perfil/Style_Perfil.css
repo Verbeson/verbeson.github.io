@@ -40,16 +40,6 @@ p{
   top: 520px;
 }
 
-.img ul{
-  display: ;
-}
-
-
-.typefilter{
-  border: salmon;
-}
-
-
 .dp-menu ul ul {
   display: none;
   left: 0;
@@ -87,6 +77,6 @@ color:inherit remove o azul do texto e o text-decoration: none remove o sublinha
   color: inherit;
 }
 
-li{
+li {
   list-style-type: none;
 }
