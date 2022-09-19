@@ -11,8 +11,10 @@
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
-<body>
 
+
+<body>
+<div class="conteudo">
     <!-- Primeira div e relacionada ao corpo do menu-->
 <div id="alll" class="dropdown-menu dropdown-menu-dark d-block position-static border-0 pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px">
     <!-- class relacionada ao type filter-->
@@ -25,32 +27,39 @@
 
     <nav class="dp-menu">
         
-    <ul class="list-unstyled mb-0">
+    <ul class="list-unstyled mb-0 quem-sou">
 
     <!--MENU QUEM SOU-->
+    <div class="Quem-sou">
       <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
         <ion-icon name="accessibility-outline"></ion-icon>
         Quem sou
 
            <!-- SUB-MENU QUEM SOU-->
-          <ul class="img"><a href="#"><img src="Perfil Verbeson.jpeg"  alt="Verbeson Foto LinkedIn" width="200px" id="verbimagem">
+           <div class="Quem-sou-conteudo">
+          <ul class="img"><a href="#"><img src="Perfil Verbeson.jpeg"  alt="Verbeson Foto LinkedIn" width="25%" id="verbimagem">
         </a>
             Me chamo Verbeson e tenho 24 anos. <br>Verb ou verbinho para quem acha dificil falar meu nome. 
             <br>Me interesso em computadores desde os 7 ou 8 anos de idade,<br> com 12 anos comecei a ajudar
             meu pai em uma empresa de internet que ele criou com ajuda de alguns amigos.<br>
             Apos isso no primeiro ano do ensino medio passei no SENAI para cursar o tecnico em <strong>redes de computadores</strong>.
           </ul>
-          <!-- SUB-MENU QUEM SOU-->
+        </div>
+       
+        <!-- SUB-MENU QUEM SOU-->
 
       </a></li>
+    </div>
     <!--MENU QUEM SOU-->
 
     <!--MENU HABILIDADES-->
-      <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+    <div class="habilidades">
+      <li><a class="dropdown-item d-flex align-items-center gap-2 py-1" href="#">
         <ion-icon name="finger-print-outline"></ion-icon>
         Habilidades
 
         <!--SUB-MENU HABILIDADES-->
+      <div class="habilidades-conteudo">
         <ul>
             <li>Administracao de redes</li>
             <li>Monitoramento Zabbix</li>
@@ -58,41 +67,51 @@
             <li></li>
             <li></li>
         </ul>
+      </div>
         <!--SUB-MENU HABILIDADES-->
     
       </a></li>
+    </div>
     <!--MENU HABILIDADES--> 
 
+    <div class="empresas">
     <!--MENU EMPRESAS-->
       <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
         <ion-icon name="business-outline"></ion-icon>
         Empresas
 
         <!--SUB-MENU EMPRESAS-->
+      <div class="empresas-conteudo">
         <ul>
-            <li>Verlocknet (Empresa Propria)</li>
-            <li>67Telecom (Analista de sistemas, Gerente de redes)</li>
-            <li>NewParce Telecom (Suporte Tecnico, Gerente Noc)</li>
+            <ul>Verlocknet (Empresa Propria)</ul>
+            <ul>67Telecom (Analista de sistemas, Gerente de redes)</ul>
+            <ul>NewParce Telecom (Suporte Tecnico, Gerente Noc)</ul>
         </ul>
+      </div>
         <!--SUB-MENU EMPRESAS-->
 
       </a></li>
+    </div>
     <!--MENU EMPRESAS-->
 
     <!--MENU CERTIFICADOS-->
-      <li><a class="dropdown-item d-flex align-items-center gap-2 py-1" href="#">
+    <div class="certificados">
+      <li><a class="dropdown-item d-flex align-items-center gap-2 py-0" href="#">
         <ion-icon name="attach-outline"></ion-icon>
         Certificados
 
         <!--SUB-MENU CERTIFICADOS-->
+      <div class="certificados-conteudo">
         <ul>
-            <li><a href="Certificados/Certificado_Monitoramento_zabbix_avancado.jpg">Zabbix Monitoramento Avancado</a></li>
-            <li><a href="Certificados/Certificado_Monitoramento_zabbix.jpg">Monitoramento Zabbix</a></li>
-            <li><a href="Certificados/Certificado_NmapBasico_Avancado.jpg">Nmap</a></li>
+            <ul><a href="Certificados/Certificado_Monitoramento_zabbix_avancado.jpg">Zabbix Monitoramento Avancado</a></ul>
+            <ul><a href="Certificados/Certificado_Monitoramento_zabbix.jpg">Monitoramento Zabbix</a></ul>
+            <ul><a href="Certificados/Certificado_NmapBasico_Avancado.jpg">Nmap</a></ul>
         </ul>
+      </div>
         <!--SUB-MENU CERTIFICADOS-->
 
-    </li>
+      </li>
+    </div>
     <!--MENU CERTIFICADOS-->
 
     <!--LINKEDIN LINK-->
@@ -108,10 +127,10 @@
 <h3>VQV! <ion-icon name="heart"></ion-icon> </h3>
 
 <div id="google_translate_element"></div>
-
+</div>
 <script type="text/javascript">
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  new google.translate.TranslateElement({pageLanguage: 'pt'}, 'google_translate_element');
 }
 </script>
 
