@@ -22,13 +22,14 @@ p{
   z-index: 1;
   
 }
-
+/*
 aside{
   display: block;
   flex-direction: row;
   right: 80%;
   color: blue;
 }
+*/
 
 #verbimagem{
   float: left;
